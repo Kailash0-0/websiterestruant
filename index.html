@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design | Koyla tandoori restaurant</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo-dark.jpg" alt="Company Logo" style="width: 150px; height: 150px; border-radius: 70%; border: none;">
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <button id="mode-toggle" class="mode-toggle">
+          <i class="ri-moon-line mode-icon"></i>
+          <i class="ri-sun-line mode-icon"></i>
+          <span class="mode-text">Switch to Dark Mode</span>
+        </button>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" style="width: 100%; height: 500px; object-fit: cover;">
+      </div>
+      <div class="header__content" style="text-align: center;">
+        <h2 style="font-size: 36px; color: #FFA07A; margin-bottom: 20px;">Make Yourself Feel Home</h2>
+        <h1 style="font-size: 48px; color: #333; margin-bottom: 20px;">Tandoori<br><span>Week</span></h1>
+      </div>
+    </header>
+    <img src="assets/headers.png" alt="new image" style="width: 100%; height: 300px; object-fit: cover;">
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MOST POPULAR FAST FOOD</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY FOOD</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        Whether you crave classic flavors or daring combinations, this is where
+        your culinary journey begins. Indulge your cravings and savor every bite
+        as you create your personalized burger experience with CHICKEN Tandoori.
+      </p>
+      <div class="order__grid">
+        <h3>Tandoori Items</h3>
+        <ul>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Tandoori Full (Rs 1,200)</li>
+              <img src="assets/tandoori-full.jpg" class="tandoori-full" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Tandoori half (Rs 600)</li>
+              <img src="assets/tandoori-half.jpg" class="tandoori-full" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Malai Kabab (Rs 600)</li>
+              <img src="assets/malai-kabab.jpg" class="malai-kabab" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Hariyali Kabab (Rs 600)</li>
+              <img src="assets/hariyali-chicken.jpg" class="hariyali-chicken" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Achari Kabab (Rs 600)</li>
+              <img src="assets/achari-kabab.jpg" class="chicken-achari-kabab" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">chicken Tikka (Rs 600)</li>
+              <img src="assets/chicken-tikka.jpg" class="chicken-tikka" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">Tandoori Wings (8pc) (Rs 400)</li>
+              <img src="assets/tandoori-wings.jpg" class="tandoori-wings" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">Chicken Sekuwa (Rs 350)</li>
+              <img src="assets/chicken-sekuwa.jpg" class="chicken-sekuwa" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">Whole Tandoori Full (Rs 1,200)</li>
+              <img src="assets/full-tandoori.jpg" class="whole-tandoori-full" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            </div>
+          </div>
+         </ul>
+        <h3>Biryani Items</h3>
+        <ul>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Biryani (Rs 400)
+                <img src="assets/chicken-biryani.jpg" class="chicken-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Mutton Biryani (Rs 550)
+                <img src="assets/mutton-biryani.jpg" class="mutton-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Tikka Biryani (Rs 450)
+                <img src="assets/chicken-tikka-biryani.jpg" class="chicken-tikka-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Tikka Biryani (Rs 450)
+                <img src="assets/paneer-tikka-biryani.jpg" class="paneer-tikka-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Egg Biryani (Rs 400)
+                <img src="assets/egg-biryani.jpg" class="egg-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Biryani (Rs 300)
+                <img src="assets/veg-biryani.jpg" class="veg-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Tandoori Biryani (Rs 490)
+                <img src="assets/chicken-tandoori-biryani.jpg" class="chicken-tandoori-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Hyd Dum Biryani (Rs 450)
+                <img src="assets/chicken-hydrabadi-biryani.jpg" class="chicken-hyd-dum-biryani" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+          </div>
+        </ul>
+        <h3>Indian Curry Items</h3>
+        <ul>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Butter Chicken (Rs 400)
+                <img src="assets/butter-chicken.jpg" class="butter-chicken" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Curry (Rs 290)
+                <img src="assets/chicken-curry.jpg" class="chicken-curry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Kadai (Rs 390)
+                <img src="assets/chicken-kadai.jpg" class="chicken-kadai" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Mutton Curry (Rs 390)
+                <img src="assets/mutton-curry.jpg" class="mutton-curry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Mutton Kadai (Rs 400)
+                <img src="assets/mutton-kadai.jpg" class="mutton-kadai" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Butter Masala (Rs 350)
+                <img src="assets/paneer-butter-masala.jpg" class="paneer-butter-masala" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Kadai (Rs 350)
+                <img src="assets/paneer-kadai.jpg" class="paneer-kadai" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Butter Dai Fry (Rs 200)
+                <img src="assets/butter-dai-fry.jpg" class="butter-dai-fry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Dal Tadka (Rs 200)
+                <img src="assets/dal-tadka.jpg" class="dal-tadka" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu -item">
+              <li style="margin-top: 10px;">
+                Rajma Masala (Rs 190)
+                <img src="assets/rajma-masala.jpg" class="rajma-masala" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Rajma Curry (Rs 150)
+                <img src="assets/rajma-curry.jpg" class="rajma-curry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow : 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Palak Paneer (Rs 300)
+                <img src="assets/palak paneer.jpg" class="palak-paneer" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Mix Veg Curry (Rs 200)
+                <img src="assets/Mix Veg Curry.jpg" class="mix-veg-curry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Egg Curry (Rs 250)
+                <img src="assets/egg-curry.jpg" class="egg-curry" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Sahi Paneer (Rs 400)
+                <img src="assets/sahi-paneer.jpg" class="sahi-paneer" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Mutter Paneer (Rs 300)
+                <img src="assets/mutter-paneer.jpg" class="mutter-paneer" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Aloo Gobi (Rs 200)
+                <img src="assets/aloo-gobi.jpg" class="aloo-gobi" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Tikka Masala (Rs 390)
+                <img src="assets/chicken-tikka-masala.jpg" class="chicken-tikka-masala" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Kadai (Rs 220)
+                <img src="assets/veg-kadai.jpg" class="veg-kadai" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Tikka Masala (Rs 350)
+                <img src="assets/paneer-tikka-masala.jpg" class="paneer-tikka-masala" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Aloo Mutter (Rs 150)
+                <img src="assets/aloo-mutter.jpg" class="aloo-mutter" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Aloo Palak (Rs 250)
+                <img src="assets/aloo-palak.jpg" class="aloo-palak" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+          </div>
+        </ul>
+        <h3>MoMo Items</h3>
+        <ul>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Steam (Rs 200)
+                <img src="assets/chicken-steam.jpg" class="chicken-steam" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Buff Steam (Rs 190)
+                <img src="assets/buff-steam.jpg" class="buff-steam" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Steam (Rs 200)
+                <img src="assets/paneer-steam.jpg" class="paneer-steam" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Steam (Rs 150)
+                <img src="assets/veg-steam.jpg" class="veg-steam" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Fry/Kothey (Rs 220)
+                <img src="assets/chicken-fry-kothey.jpg" class="chicken-fry-kothey" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Buff Fry/Kothey (Rs 220)
+                <img src="assets/buff-fry-kothey.jpg" class="buff-fry-kothey" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Fry/Kothey (Rs 220)
+                <img src="assets/paneer-fry-kothey.jpg" class="paneer-fry-kothey" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Fry/Kothey (Rs 180)
+                <img src="assets/veg-fry-kothey.jpg" class="veg-fry-kothey" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Chilly/Jhol (Rs 250)
+                <img src="assets/chicken-chilly-jhol.jpg" class="chicken-chilly-jhol" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0. 5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Buff Chilly/Jhol (Rs 240)
+                <img src="assets/buff-chilly-jhol.jpg" class="buff-chilly-jhol" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Chilly/Jhol (Rs 250)
+                <img src="assets/paneer-chilly-jhol.jpg" class="paneer-chilly-jhol" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Chilly/Jhol (Rs 200)
+                <img src="assets/veg-chilly-jhol.jpg" class="veg-chilly-jhol" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Tandoori/Chhoila (Rs 290)
+                <img src="assets/chicken-tandoori-chhoila.jpg" class="chicken-tandoori-chhoila" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Buff Tandoori/Chhoila (Rs 280)
+                <img src="assets/buff-tandoori-chhoila.jpg" class="buff-tandoori-chhoila" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Paneer Tandoori/Chhoila (Rs 290)
+                <img src="assets/paneer-tandoori-chhoila.jpg" class="paneer-tandoori-chhoila" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Veg Tandoori/Chhoila (Rs 220)
+                <img src="assets/veg-tandoori-chhoila.jpg" class="veg-tandoori-chhoila" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+          </div>
+        </ul>
+        <h3>Naan Items</h3>
+        <ul>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Butter Naan (Rs 80)
+                <img src="assets/butter-naan.jpg" class="butter-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Plain Naan (Rs 70)
+                <img src="assets/plain-naan.jpg" class="plain-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Aloo Naan (Rs 100)
+                <img src="assets/aloo-naan.jpg" class="aloo-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Aloo Paratha (Rs 100)
+                <img src="assets/aloo-paratha.jpg" class="aloo-paratha" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Garlic Naan (Rs 150)
+                <img src="assets/garlic-naan.jpg" class="garlic-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Buff Kima Naan (Rs 200)
+                <img src="assets/buff-kima-naan.jpg" class="buff-kima-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Chicken Kima Naan (Rs 200)
+                <img src="assets/chicken-kima-naan.jpg" class="chicken-kima-naan" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Butter Roti (Rs 40)
+                <img src="assets/butter-roti.jpg" class="butter-roti" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+            <div class="menu-item">
+              <li style="margin-top: 10px;">
+                Plain Roti (Rs 30)
+                <img src="assets/plain-roti.jpg" class="plain-roti" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+              </li>
+            </div>
+          </div>
+        </ul>
+        <h3>Pizza Items</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Special Koyla Pizza (Rs 600)
+        <img src="assets/special-koyla-pizza.jpg" class="special-koyla-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        BBQ Chicken Pizza (Rs 590)
+        <img src="assets/bbq-chicken-pizza.jpg" class="bbq-chicken-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Tikka Pizza (Rs 550)
+        <img src="assets/chicken-tikka-pizza.jpg" class="chicken-tikka-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Sausage Pizza (Rs 500)
+        <img src="assets/chicken-sausage-pizza.jpg" class="chicken-sausage-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff Sausage Pizza (Rs 500)
+        <img src="assets/buff-sausage-pizza.jpg" class="buff-sausage-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Pizza (Rs 500)
+        <img src="assets/chicken-pizza.jpg" class="chicken-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Paneer Tikka Pizza (Rs 550)
+        <img src="assets/paneer-tikka-pizza.jpg" class="paneer-tikka-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mushroom Pizza (Rs 500)
+        <img src="assets/mushroom-pizza.jpg" class="mushroom-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Cheese Pizza (Rs 450)
+        <img src="assets/cheese-pizza.jpg" class="cheese-pizza" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+
+<h3>Chowmein</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 200)
+        <img src="assets/chicken.jpg" class="chicken" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mix (Rs 250)
+        <img src="assets/mix.jpg" class="mix" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff (Rs 200)
+        <img src="assets/buff.jpg" class="buff" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 170)
+        <img src="assets/veg.jpg" class="veg" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+ 
+<h3>Thukpa Items</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mix (Rs 250)
+        <img src="assets/mixrice.jpg" class="mixrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 200)
+        <img src="assets/chickenrice.jpg" class="chickenrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff (Rs 200)
+        <img src="assets/buff.jpg" class="buff" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 170)
+        <img src="assets/veg.jpg" class="veg" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+ 
+<h3>Fried Rice Items</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mix (Rs 250)
+        <img src="assets/friedrice.jpg" class="friedrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 200)
+        <img src="assets/chickenrice.jpg" class="chickenrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff (Rs 200)
+        <img src="assets/buffrice.jpg" class="buffrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 170)
+        <img src="assets/vegrice.jpg" class="vegrice" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+<h3>Nepali Khana Set</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mutton Khana (Rs 400)
+        <img src="assets/mutton-khana.jpg" class="mutton-khana" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Khana (Rs 320)
+        <img src="assets/chicken-khana.jpg" class="chicken-khana" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg Khana (Rs 220)
+        <img src="assets/veg-khana.jpg" class="veg-khana" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+<h3>Koyla Special Khaja Set</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Mutton Khaja Set (Rs 490)
+        <img src="assets/mutton-khaja-set.jpg" class="mutton-khaja-set" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Khaja Set (Rs 390)
+        <img src="assets/chicken-khaja-set.jpg" class="chicken-khaja-set" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff Khaja Set (Rs 370)
+        <img src="assets/buff-khaja-set.jpg" class="buff-khaja-set" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg Khaja Set (Rs 290)
+        <img src="assets/veg-khaja-set.jpg" class="veg-khaja-set" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+<h3>Burger</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Grilled Chicken (Rs 250)
+        <img src="assets/grilled-chicken-burger.jpg" class="grilled-chicken-burger" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 250)
+        <img src="assets/chicken-burger.jpg" class="chicken-burger" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Buff (Rs 220)
+        <img src="assets/buff-burger.jpg" class="buffburger" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 190)
+        <img src="assets/veg-burger.jpg" class="veg-burger" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Cheese (Rs 200)
+        <img src="assets/cheese-burger.jpg" class="cheeseburger" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Extra Cheese (Rs 50)
+        <img src="assets/extra-cheese.jpg" class="extra-cheese" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+<h3>Sandwich</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Club Sandwich (Rs 300)
+        <img src="assets/club-sandwich.jpg" class="club-sandwich" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Grilled Chicken (Rs 250)
+        <img src="assets/grilled-chicken-sandwich.jpg" class="grilled-chicken-sandwich" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 220)
+        <img src="assets/chicken-sandwich.jpg" class="chicken" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 190)
+        <img src="assets/veg-sandwich.jpg" class="veg" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Cheese (Rs 200)
+        <img src="assets/cheesesandwicht.jpg" class="cheese" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Extra Cheese (Rs 50)
+        <img src="assets/extra-cheese.jpg" class="extra-cheese" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+<h3>Spring Roll</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken (Rs 250)
+        <img src="assets/chickenrool.jpg" class="chicken" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg (Rs 200)
+        <img src="assets/vegrool.jpg" class="veg" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Egg (Rs 220)
+        <img src="assets/eggrolls.jpg" class="egg" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Paneer (Rs 290)
+        <img src="assets/paneerrolls.jpg" class="paneer" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+
+<h3>Kathi Roll</h3>
+<ul>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Double Egg Chicken Kathi Roll (Rs 350)
+        <img src="assets/double-egg-chicken-kathi-roll.jpg" class="double-egg-chicken-kathi-roll" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Kathi Roll (Rs 290)
+        <img src="assets/chicken-kathi-roll.jpg" class="chicken-kathi-roll" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Chicken Egg Kathi Roll (Rs 300)
+        <img src="assets/chicken-egg-kathi-roll.jpg" class="chicken-egg-kathi-roll" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Paneer Kathi Roll (Rs 290)
+        <img src="assets/paneer-kathi-roll.jpg" class="paneer-kathi-roll" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+    <div class="menu-item">
+      <li style="margin-top: 10px;">
+        Veg Kathi Roll (Rs 200)
+        <img src="assets/veg-kathi-roll.jpg" class="veg-kathi-roll" style="width: 150px; height: 150px; border-radius: 60%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+      </li>
+    </div>
+  </div>
+</ul>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">Dashain Special Offer</h2>
+          <p class="section__description">
+            Welcome to Koyla Tandoori Restaurant, where passion for authentic Nepali cuisine and genuine 
+            hospitality come together. Our story is one of dedication to crafting the perfect dining 
+            experience, from sourcing the finest ingredients to delivering unparalleled taste in every
+            bite. We take pride in serving traditional Nepali dishes with a modern twist, using only 
+            the freshest ingredients and time-honored cooking techniques to create a truly unforgettable
+            culinary experience. Whether you're a foodie, a family, or just looking for a taste of home, 
+            we invite you to join us at Koyla Tandoori Restaurant and discover the rich flavors 
+            and warm hospitality of Nepal.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section__container chef__container" id="chef">
+      <div class="chef__content">
+        <div class="chef__image">
+          <h2 style="text-align: center; color: #FFA07A; font-size: 36px; margin-bottom: 20px;">Meet Our Chefs</h2>
+          <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+            <img src="assets/chef-image.png" alt="Chef's Image" style="width: 300px; height: 300px; border: 2px solid #767372; border-radius: 10%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5);">
+            <img src="assets/another-chef-image.jpeg" alt="Another Chef's Image" style="width: 300px; height: 300px; border: 2px solid #7e7d7d; border-radius: 10%; box-shadow: 0 0 10px 5px rgba(255, 193, 7, 0.5); margin: 0 20px;">
+          </div>
+          <p style="text-align: center; font-size: 18px; color: #666; margin-bottom: 20px;">
+            The most experienced chef who worked abroad for 3 years and 
+            came back with the motive of launching the restaurant in Nepal. 
+          </p>
+          <p style="text-align: center; font-size: 18px; color: #666;">
+            Initially, they were the experienced chefs from the Om Fast Food Pvt. Ltd. 
+          </p>
+        </div>
+      </div>
+    </section>
+        </div>
+      </div>
+    </section>
+        </div>
+        <div class="chef__details">
+        </div>
+      </div>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/book-table" method="post">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="date" name="date" placeholder="Date">
+          <input type="time" name="time" placeholder="Time">
+          <input type="number" name="people" placeholder="People">
+          <button type="submit">Book Table</button>
+        </form>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.jpg" alt="logo" style="
+          width: 300px;
+          height: 300px;
+          border-radius: 70%;
+          border: 2px solid #FFA07A;
+          box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+          box-shadow: 0 0 20px rgba(255, 193, 7, 0.2) inset;">
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Koyla Tandoori Restaurant, where passion for authentic Nepali cuisine
+             and genuine hospitality come together. Our story is one of dedication to crafting
+              the perfect dining experience, from sourcing the finest ingredients to delivering 
+              unparalleled taste in every bite. We take pride in serving traditional Nepali dishes
+               with a modern twist, using only the freshest ingredients and time-honored cooking 
+               techniques to create a truly unforgettable culinary experience. Whether you're a
+                foodie, a family, or just looking for a taste of home, we invite you to join us
+                 at Koyla Tandoori Restaurant and discover the rich flavors and warm hospitality of Nepal.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Pashupati Sadak, Kathmandu 44600<br>
+                Kathmandu,ratopul
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                koylatandoori@gmail.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61560055420649" target="_blank">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://wa.me/+9779851351729" target="_blank">
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+            </div>
+      <div class="footer__bar">
+        Copyright 2024 Koyla tandoori restaurant. All rights reserved.
+      </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
